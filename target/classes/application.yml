@@ -1,0 +1,28 @@
+ftp:
+  servers:
+    - host: ftp.server1.com
+      port: 21
+      username: user1
+      password: password1
+      remoteDirectory: /path/to/files1
+      downloadIntervalSeconds: 3600
+      processedDirectory: /path/to/processed1
+    - host: ftp.server2.com
+      port: 21
+      username: user2
+      password: password2
+      remoteDirectory: /path/to/files2
+      downloadIntervalSeconds: 3600
+      processedDirectory: /path/to/processed2
+
+aws:
+  accessKeyId: your-aws-access-key
+  secretAccessKey: your-aws-secret-key
+  s3:
+    bucket:
+      name: bucket-name
+    region: eu-central-1
+
+batch:
+  job:
+    cron: "0 0 * * * *"

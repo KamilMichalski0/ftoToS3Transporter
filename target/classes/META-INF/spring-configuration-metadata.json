@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "aws.s3",
+      "type": "com.example.ftoToS3Transporter.config.S3Config",
+      "sourceType": "com.example.ftoToS3Transporter.config.S3Config"
+    },
+    {
+      "name": "ftp",
+      "type": "com.example.ftoToS3Transporter.config.FtpConfig",
+      "sourceType": "com.example.ftoToS3Transporter.config.FtpConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aws.s3.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.ftoToS3Transporter.config.S3Config"
+    },
+    {
+      "name": "aws.s3.region",
+      "type": "java.lang.String",
+      "sourceType": "com.example.ftoToS3Transporter.config.S3Config"
+    },
+    {
+      "name": "ftp.servers",
+      "type": "java.util.List<com.example.ftoToS3Transporter.config.FtpConfig$FtpServer>",
+      "sourceType": "com.example.ftoToS3Transporter.config.FtpConfig"
+    }
+  ],
+  "hints": []
+}
